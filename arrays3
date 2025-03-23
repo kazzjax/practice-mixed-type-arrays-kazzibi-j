@@ -1,1 +1,6 @@
-
+let userProfile = ["Shrekfan", 29, true, {city: "Scranton"}, ["painting", "fishing", "pottery"]];
+console.log(userProfile[0]);
+console.log(userProfile[4][1]);
+userProfile[0] = "Fiona";
+userProfile[4][3] = "hiking";
+console.log(userProfile);
